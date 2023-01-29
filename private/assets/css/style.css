@@ -1,0 +1,611 @@
+body,
+html {
+    width: 100%!important;
+    overflow-x: hidden!important;
+    background-color: #efefef;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.card-profile-left-img {
+    display: none;
+}
+/*CONTAINER*/
+#container {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+/*MODEL TITLE NAME*/
+#model-title-name h1{
+    color: #616161;
+    margin: auto;
+    text-align: center;
+    margin: 40px 0px;
+}
+/*MODEL CARD*/
+#model-card {
+    box-sizing: border-box;
+    width: 80%;
+    height: 260px;
+    border-left: solid #1f5694 5px;
+    padding: 20px 15px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px #000;
+
+}
+.card-skills-model-img {
+    width: 25%;
+    height: auto;
+}
+/*HEADER*/
+#header {
+    overflow: hidden;
+}
+
+#header .img-header {
+    position: relative;
+    display: block;
+    width: 100vw;
+    height: 370px;
+    background: url(../Images/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+/*CARD PROFILE*/
+#card-profile {
+    position: relative;
+    display: flex;
+    width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    top: -100px;
+    z-index: 999;
+    background-color: #06A763;
+    box-sizing: border-box;
+    box-shadow: 2px 5px 10px #000;
+}
+.card-profile-left {
+    padding: 40px 40px;
+    box-sizing: border-box;
+}.card-profile-right {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+    background-color: #000;
+}
+.card-profile-img img {
+    box-sizing: border-box;
+    width: 370px;
+}
+.card-profile-name{
+    text-align: left;
+    font-size: 32.7px;
+    color: #fff;
+}
+.card-profile-job-title {
+    position: relative;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    top: -15px;
+    margin-top: 20px;
+}
+.card-profile-subs-cat {
+    position: relative;
+    color: #fff;
+    font-size: 15px;
+    top: 15px;
+    margin-top: 10px;
+}
+.card-profile-subs-cat img {
+    position: relative;
+    width: 20px;
+    top: 5px;
+    margin-right: 5px;
+}
+.card-profile-icons {
+    display: flex;
+    box-sizing: border-box;
+}
+.card-profile-icon img {
+    position: relative;
+    width: 40px;
+    top: 50px;
+    margin-right: 15px;
+}
+.card-profile-text {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    width: 60vw;
+    height: 200px;
+    margin: auto;
+    background-color: #fff;
+    align-items: center;
+    text-align: center;
+    top: -40px;
+    box-shadow: 1px 1px 10px #000;
+
+}
+.card-profile-text-p {
+    padding: 20px 40px;
+    color: #616161;
+    font-size: 15px;
+}
+/*EDUCATION*/
+#education {
+    width: 60vw;
+    margin: auto;
+}
+.cards-education {
+    display: flex;
+    justify-content: space-around;
+}
+.card-education-line {
+    box-sizing: border-box;
+    display: block;
+    width: 10px;
+    height: 650px;
+    border: 3px solid #06A763;
+    background-color: #06A763;
+    
+}
+.card-education-point-01-right {
+    display: block;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border: 100% solid #000;
+    border-radius: 100%;
+    background-color: #06A763;
+    margin-top: 40px;
+    text-align: center;
+    left: -27px;
+    top: 50px;
+}
+.card-education-point-line-01-right {
+    position: relative;
+    width: 200px;
+    font-size: 50px;
+    font-weight: bold;
+    left: -50px;
+    top: -10px;
+    color: #06A763;
+}
+.card-education-point-01-left {
+    display: block;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border: 100% solid #000;
+    border-radius: 100%;
+    background-color: #06A763;
+    margin-top: 40px;
+    text-align: center;
+    right: -26px;
+    top: -40px;
+}
+.card-education-point-line-01-left {
+    position: relative;
+    width: 200px;
+    font-size: 50px;
+    font-weight: bold;
+    right: 105px;
+    top: -10px;
+    color: #06A763;
+}
+.card-education-name-couse {
+    font-size: 21px;
+    color: #616161;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card-education-name-university {
+    font-size: 15.75px;
+    color: #616161;
+    margin-bottom: 20px;
+}
+.card-education-date {
+    font-size: 15.75px;
+    color: #616161;
+    margin-bottom: 20px;
+}
+.card-education-text-p {
+    font-size: 15px;
+    color: #616161;
+}
+.card-education-left {
+    position: relative;
+    top: 30px;
+}
+.card-education-right{
+    position: relative;
+    top: 80px;
+}
+/*SKILLS*/
+#skills {
+    overflow-x: hidden;
+    display: grid;
+    width: 60vw;
+    margin: auto;
+}
+.card-skills{
+    box-sizing: border-box;
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+        "card-skill-icon-01" "ccard-skill-icon-02" "card-skill-icon-03"
+        "card-skill-icon-04" "ccard-skill-icon-05" "card-skill-icon-06"
+        ;
+    text-align: center;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: #06A763;
+    align-items: center;
+    box-shadow: 2px 5px 10px #000;
+
+}
+.card-skills-name {
+    margin: 20px;
+}
+/*EXPERIENCES*/
+#experience {
+    width: 60vw;
+    margin: auto;
+}
+.cards-experience {
+    display: flex;
+    justify-content: space-around;
+}
+.card-experience-line {
+    box-sizing: border-box;
+    display: block;
+    width: 10px;
+    height: 500px;
+    border: 3px solid #06A763;
+    background-color: #06A763;
+    
+}
+.card-experience-point-01-right {
+    display: block;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border: 100% solid #000;
+    border-radius: 100%;
+    background-color: #06A763;
+    margin-top: 40px;
+    text-align: center;
+    left: -27px;
+    top: 50px;
+}
+.card-experience-point-line-01-right {
+    position: relative;
+    width: 200px;
+    font-size: 50px;
+    font-weight: bold;
+    left: -50px;
+    top: -10px;
+    color: #06A763;
+}
+.card-experience-point-01-left {
+    display: block;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border: 100% solid #000;
+    border-radius: 100%;
+    background-color: #06A763;
+    margin-top: 40px;
+    text-align: center;
+    right: -26px;
+    top: -40px;
+}
+.card-experience-point-line-01-left {
+    position: relative;
+    width: 200px;
+    font-size: 50px;
+    font-weight: bold;
+    right: 105px;
+    top: -10px;
+    color: #06A763;
+}
+.card-experience-name-job-title {
+    font-size: 21px;
+    color: #616161;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card-experience-name-company {
+    font-size: 15.75px;
+    color: #616161;
+    margin-bottom: 20px;
+}
+.card-experience-date {
+    font-size: 15.75px;
+    color: #616161;
+    margin-bottom: 20px;
+}
+.card-experience-text-p {
+    font-size: 15px;
+    color: #616161;
+}
+.card-experience-left {
+    position: relative;
+    top: 30px;
+}
+.card-experience-right{
+    position: relative;
+    top: 80px;
+}
+/*FOOTER*/
+footer {
+    display: flex;
+    position: relative;
+    height: 40px;
+    top: 200px;
+    background-color: #06A763;
+    border-top: solid 2px #000;
+    border-bottom: solid 2px #000;
+    justify-content: center;
+}
+.footer-text p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+.footer-text {
+    display: flex;
+    justify-content: center;
+}
+.footer-text p {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    box-sizing: border-box;
+}
+/*MEDIA QUERY*/
+@media (max-width: 1450px) {
+    #education{
+        width: 75vw;
+    }
+    .cards-education {
+        display: block;
+    }
+    .cards-experience {
+        display: block;
+    }
+    .card-experience-line,
+    .card-experience-point-01-right,
+    .card-experience-point-01-left,
+    .card-education-line,
+    .card-education-point-01-right,
+    .card-education-point-01-left   {
+        display: none;
+    }
+    .skills-title-name {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 1220px) {
+    #card-profile {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .card-profile-name,
+    .card-profile-job-title{
+        text-align: center;
+    }
+    .card-profile-left-img{
+        position: relative;
+        display: block;
+        border-radius: 100%;
+        width: 40%;
+        top: -100px;
+        margin: auto;
+        margin-bottom: -80px;
+        
+    }
+    .card-profile-right {
+        display: none;
+    }
+    .card-skills {
+        width: 60vw;
+    }
+    .card-profile-center-text {
+        width: 40vw;
+        display: flex;
+        position: relative;
+        display: block;
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        margin: auto;
+    }
+    .card-profile-subs-cat h3{
+        display: flex;
+        margin: auto;
+
+    }
+    .card-profile-subs-cat img{
+        text-align: center;
+    }
+    .card-profile-left {
+        display: block;
+    }
+    .card-profile-icons {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: -20px;
+    }
+    .card-skills-model-img {
+        width: 40%;
+    }
+    .card-skills{
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-areas: 
+        "card-skill-icon-01" "ccard-skill-icon-02" 
+        "card-skill-icon-03" "card-skill-icon-04"
+        "card-skill-icon-05" "card-skill-icon-06"
+        ;
+    }
+    
+}
+
+@media (max-width: 750px) {
+    .card-skills {
+        margin: 0;
+        padding: 20px 0;
+        word-wrap: break-word;
+    }
+    .card-skills-model-img {
+        width: 20%;
+        margin: 0;
+        padding: 0;
+    }
+    .card-profile-center-text {
+        width: 50vw;
+        font-size: 13px;
+    }
+    .card-profile-name {
+        font-size: 25px;
+    }
+    .card-profile-job-title {
+        font-size: 20px;
+    }
+    .card-profile-subs-cat {
+        font-size: 12px;
+    }
+    .card-profile-icons img{
+        width: 30px;
+    }
+    .card-profile-text-p {
+        font-size: 12px;
+    }
+    .card-skills-model-img {
+        width: 20%;
+    }
+    .card-skills-name {
+        font-size: 10px;
+    }
+    .card-education-name-couse,
+    .card-experience-name-job-title {
+        font-size: 18px;
+    }
+    .card-education-name-university,
+    .card-experience-name-company {
+        font-size: 15px;
+    }
+    .card-education-name-date,
+    .card-education-text-p,
+    .card-experience-,
+    .card-experience-text-p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 650px) {
+    .card-profile-left-img {
+        width: 55%;
+    }
+}
+@media (max-width: 565px) {
+    .card-profile-center-text {
+        padding: 0;
+        top: -20px;
+    }
+    .card-skills {
+        margin: 0;
+    }
+    .card-skills-model-img {
+        width: 10%;
+    }
+    .card-profile-center-text {
+        width: 50vw;
+        font-size: 13px;
+    }
+    .card-profile-name {
+        font-size: 16px;
+    }
+    .card-profile-job-title {
+        font-size: 13px;
+    }
+    .card-profile-subs-cat {
+        font-size: 12px;
+    }
+    .card-profile-icons img{
+        width: 20px;
+    }
+    .card-profile-text-p {
+        font-size: 10px;
+        margin: 0;
+        padding: 10px;
+    }
+    .card-skills-model-img {
+        width: 20%;
+        transform: translateX(10px);
+    }
+    .card-skills-name {
+        font-size: 12px;
+    }
+    .card-education-name-couse,
+    .card-experience-name-job-title {
+        font-size: 14px;
+    }
+    .card-education-name-university,
+    .card-experience-name-company {
+        font-size: 13px;
+    }
+    .card-education-name-date,
+    .card-education-text-p,
+    .card-experience-date,
+    .card-experience-text-p {
+        font-size: 11px;
+    }
+    #model-card{
+        width: 100%;
+    }
+    .card-profile-text {
+        width: 75%;
+    }
+    #card-profile {
+        width: 75%;
+    }
+    #skills {
+        position: relative;
+        width: 100%;
+        margin: auto;
+    }
+    .card-skills {
+        position: relative;
+        width: 75%;
+        margin: auto;
+    }
+    
+}
+@media (max-width: 380px) {
+    .card-profile-subs-cat {
+        font-size: 10px;
+    }
+    .card-profile-subs-cat img {
+        width: 15px;
+    }
+    .card-profile-icon img {
+        width: 15px;
+    }
+}
