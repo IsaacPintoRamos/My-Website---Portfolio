@@ -535,7 +535,8 @@ footer {
     .card-education-name-date,
     .card-education-text-p,
     .card-experience-,
-    .card-experience-text-p {
+    .card-experience-text-p,
+    .card-education-date {
         font-size: 14px;
     }
 }
@@ -594,7 +595,8 @@ footer {
     .card-education-name-date,
     .card-education-text-p,
     .card-experience-date,
-    .card-experience-text-p {
+    .card-experience-text-p,
+    .card-education-date {
         font-size: 11px;
     }
     #model-card{
