@@ -366,6 +366,102 @@ a {
     position: relative;
     top: 80px;
 }
+/*PROJECTS*/
+#card-projects {
+    width: 60vw;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 120px;
+}
+.projects-title-name h1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.card-project-slide {
+    transition: 3s;
+}
+
+.card-project-field-slides {
+    display: flex;
+    width: 60vw;
+    box-shadow: 1px 1px 10px #000;
+    overflow: hidden;
+}
+.card-project-field-slides input {
+    overflow: hidden;
+}
+.card-project-slide img {
+    display: flex;
+    position: relative;
+    width: 60vw;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.card-project-navigation-manual {
+    display: flex;
+    position: relative;
+    width: 50vw;
+    justify-content: center;
+    top: -45px;
+    margin: auto;
+}
+.card-project-navigatio-btn-manual {
+    border: solid 2px #555;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    transition: 1s;
+    box-sizing: border-box;
+}
+
+
+#card-project-btn-radio-01:checked ~ .first{
+    margin-left: -20px;
+}
+#card-project-btn-radio-02:checked ~ .first{
+    margin-left: calc(-100% - 20px);
+}
+#card-project-btn-radio-03:checked ~ .first{
+    margin-left: calc(-200% - 20px)
+}
+#card-project-btn-radio-04:checked ~ .first{
+    margin-left: calc(-300% - 20px);
+}
+#card-project-btn-radio-01:checked ~ .card-project-navigation-manual .btn-01{
+    background-color: #06A763;
+}  
+#card-project-btn-radio-02:checked ~ .card-project-navigation-manual .btn-02{
+    background-color: #06A763;
+} 
+#card-project-btn-radio-03:checked ~ .card-project-navigation-manual .btn-03{
+    background-color: #06A763;
+} 
+#card-project-btn-radio-04:checked ~ .card-project-navigation-manual .btn-04{
+    background-color: #06A763;
+} 
+.card-project-navigation-manual {
+    position: relative;
+    display: flex;
+    width: 20px;
+    height: 30vh;
+    left: 50%;
+    right: 50%;
+    top: 0%;
+    box-sizing: border-box;
+}
+.card-project-navigation-manual label {
+    position: relative;
+    height: 20px;
+    border-radius: 100%;
+    bottom: -35vh;
+    z-index: 9999;
+}
+.card-project-navigation-manual label:hover {
+    background-color: #000;
+}
+
 /*FOOTER*/
 footer {
     display: flex;
@@ -413,6 +509,9 @@ footer {
     }
     .skills-title-name {
         margin-top: 100px;
+    }
+    .card-project-navigation-manual label {
+        bottom: -32vh;
     }
 }
 
@@ -485,7 +584,29 @@ footer {
         "card-skill-icon-05" "card-skill-icon-06"
         ;
     }
+    .card-project-navigation-manual label {
+        bottom: -27vh;
+    }
     
+}
+@media (max-width: 950px) {
+    .card-project-navigation-manual label {
+        bottom: -25vh;
+        height: 10px;
+    }
+    .card-project-navigatio-btn-manual {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 840px) {
+    .card-project-navigation-manual label {
+        bottom: -19vh;
+    }
+    .card-project-field-slides,
+    .card-project-slide img { 
+        height: 30vh;
+    }
 }
 
 @media (max-width: 750px) {
@@ -543,6 +664,42 @@ footer {
 @media (max-width: 650px) {
     .card-profile-left-img {
         width: 55%;
+    }
+    #model-card{
+        width: 100%;
+    }
+    .card-profile-text {
+        width: 75%;
+    }
+    #card-profile {
+        width: 75%;
+    }
+    #skills {
+        position: relative;
+        width: 100%;
+        margin: auto;
+    }
+    .card-skills {
+        position: relative;
+        width: 75%;
+        margin: auto;
+    }
+    .card-skills-model-img {
+        width: 40%;
+        margin-right: 20px;
+    }
+    .card-skills-name {
+        font-size: 10px;
+    }
+    .card-project-navigation-manual label {
+        bottom: -25vh;
+    }
+    #card-projects {
+        width: 75vw;
+    }
+    .card-project-field-slides,
+    .card-project-slide img {
+        width: 75vw;
     }
 }
 @media (max-width: 565px) {
@@ -625,7 +782,17 @@ footer {
     .card-skills-name {
         font-size: 10px;
     }
-    
+    #card-projects {
+        width: 75vw;
+    }
+    .card-project-field-slides,
+    .card-project-slide img {
+        width: 75vw;
+        height: 25vh;
+    }
+    .card-project-navigation-manual label {
+        bottom: -20vh;
+    }
 }
 @media (max-width: 380px) {
     .card-profile-subs-cat {
@@ -645,6 +812,13 @@ footer {
     .card-skills-name {
         font-size: 10px;
     }
+    .card-project-field-slides,
+    .card-project-slide img {
+        height: 20vh;
+    }
+    .card-project-navigation-manual label {
+        bottom: -15vh;
+    }
 }
 
 @media (max-width: 320px) {
@@ -655,5 +829,8 @@ footer {
     .card-skills-name {
         font-size: 10px;
         margin-right: 10px;     
+    }
+    .card-project-navigation-manual label {
+        bottom: -15vh;
     }
 }
