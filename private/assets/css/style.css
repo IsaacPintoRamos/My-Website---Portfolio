@@ -388,6 +388,7 @@ a {
     overflow: hidden;
 }
 .card-project-field-slides input {
+    display: none;
     overflow: hidden;
 }
 .card-project-slide img {
