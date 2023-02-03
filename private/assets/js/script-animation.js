@@ -7,7 +7,7 @@ document.getElementById("card-project-btn-radio-01").checked = true;
     
 setInterval(function() {
     nextImage();
-}, 70000000)
+}, 7000)
 
 function nextImage() {
     count++
