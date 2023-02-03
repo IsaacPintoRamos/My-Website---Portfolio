@@ -600,13 +600,13 @@ footer {
     }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 845px) {
     .card-project-navigation-manual label {
         bottom: -19vh;
+    
     }
-    .card-project-field-slides,
-    .card-project-slide img { 
-        height: 30vh;
+    .card-project-navigation-manual label {
+        bottom: -25vh;
     }
 }
 
@@ -660,6 +660,15 @@ footer {
     .card-experience-text-p,
     .card-education-date {
         font-size: 14px;
+    }
+    .card-project-field-slides {
+        height: 230px;
+    }
+    .card-project-field-slides img {
+        height: 230px;
+    }
+    .card-project-navigation-manual label {
+        bottom: -25vh;
     }
 }
 @media (max-width: 650px) {
@@ -786,13 +795,13 @@ footer {
     #card-projects {
         width: 75vw;
     }
-    .card-project-field-slides,
-    .card-project-slide img {
+    .card-project-field-slides {
         width: 75vw;
-        height: 25vh;
+    }
+    .card-project-field-slides img {
     }
     .card-project-navigation-manual label {
-        bottom: -20vh;
+        bottom: -25vh;
     }
 }
 @media (max-width: 380px) {
@@ -815,10 +824,10 @@ footer {
     }
     .card-project-field-slides,
     .card-project-slide img {
-        height: 20vh;
+        height: 150px;
     }
     .card-project-navigation-manual label {
-        bottom: -15vh;
+        bottom: -25vh;
     }
 }
 
@@ -832,6 +841,10 @@ footer {
         margin-right: 10px;     
     }
     .card-project-navigation-manual label {
-        bottom: -15vh;
+        bottom: -25vh;
+    }
+    .card-project-field-slides,
+    .card-project-slide img {
+        height: 150px;
     }
 }
