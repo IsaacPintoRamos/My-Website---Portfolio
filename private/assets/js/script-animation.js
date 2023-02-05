@@ -11,7 +11,7 @@ setInterval(function() {
 
 function nextImage() {
     count++
-        if(count > 4) {
+        if(count > 5) {
             count = 1
         }
         document.getElementById("card-project-btn-radio-0" + count).checked = true;

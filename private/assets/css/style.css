@@ -378,7 +378,7 @@ a {
     margin-bottom: 100px;
 }
 .card-project-slide {
-    transition: 3s;
+    transition: 2s;
 }
 
 .card-project-field-slides {
@@ -431,6 +431,9 @@ a {
 #card-project-btn-radio-04:checked ~ .first{
     margin-left: calc(-300% - 20px);
 }
+#card-project-btn-radio-05:checked ~ .first{
+    margin-left: calc(-400% - 20px);
+}
 #card-project-btn-radio-01:checked ~ .card-project-navigation-manual .btn-01{
     background-color: #06A763;
 }  
@@ -441,6 +444,9 @@ a {
     background-color: #06A763;
 } 
 #card-project-btn-radio-04:checked ~ .card-project-navigation-manual .btn-04{
+    background-color: #06A763;
+} 
+#card-project-btn-radio-05:checked ~ .card-project-navigation-manual .btn-05{
     background-color: #06A763;
 } 
 .card-project-navigation-manual {
