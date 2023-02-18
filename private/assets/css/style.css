@@ -1,10 +1,18 @@
 body,
 html {
     width: 100%!important;
-    overflow-x: hidden!important;
     background-color: #efefef;
 }
-
+#change-mode {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    right: 0px;
+    background-color: #000;
+    box-sizing: border-box;
+    margin-right: 10px;
+    color: #fff;
+}
 * {
     margin: 0;
     padding: 0;
@@ -44,6 +52,7 @@ a {
 }
 .card-skills-model-img {
     width: 25%;
+    overflow: hidden;
     height: auto;
 }
 /*HEADER*/
@@ -60,6 +69,7 @@ a {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    
 }
 /*CARD PROFILE*/
 #card-profile {
@@ -73,6 +83,7 @@ a {
     background-color: #06A763;
     box-sizing: border-box;
     box-shadow: 2px 5px 10px #000;
+    
 }
 .card-profile-left {
     padding: 40px 40px;
