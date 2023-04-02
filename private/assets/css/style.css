@@ -1,8 +1,17 @@
-body,
 html {
-    width: 100%!important;
-    background-color: #efefef;
+    overflow-x: hidden;
+
 }
+
+body {
+    width: 100vw!important;
+    background-color: #efefef;
+    overflow-x: hidden;
+}
+body.dark {
+    background-color: #000;
+}
+
 #change-mode {
     position: fixed;
     width: 40px;
@@ -33,6 +42,12 @@ a {
 }
 /*MODEL TITLE NAME*/
 #model-title-name h1{
+    color: #616161;
+    margin: auto;
+    text-align: center;
+    margin: 40px 0px;
+}
+#model-title-name-02 h1{
     color: #616161;
     margin: auto;
     text-align: center;
@@ -166,6 +181,7 @@ a {
 #education {
     width: 60vw;
     margin: auto;
+    overflow-x: visible;
 }
 .cards-education {
     display: flex;
@@ -379,10 +395,11 @@ a {
 }
 /*PROJECTS*/
 #card-projects {
-    width: 60vw;
+    width: 70vw;
     margin: auto;
     box-sizing: border-box;
     margin-top: 120px;
+    display: block;
 }
 .projects-title-name h1 {
     margin-top: 100px;
@@ -397,6 +414,7 @@ a {
     width: 60vw;
     box-shadow: 1px 1px 10px #000;
     overflow: hidden;
+    margin: auto;
 }
 .card-project-field-slides input {
     display: none;
@@ -482,7 +500,7 @@ a {
 }
 
 /*FOOTER*/
-footer {
+html footer {
     display: flex;
     position: relative;
     height: 40px;
@@ -606,6 +624,10 @@ footer {
     .card-project-navigation-manual label {
         bottom: -27vh;
     }
+    #themes label {
+        bottom: 350px;
+        left: 100%!important;
+    }
     
 }
 @media (max-width: 950px) {
@@ -616,6 +638,10 @@ footer {
     .card-project-navigatio-btn-manual {
         padding: 5px;
     }
+    #themes label {
+        bottom: 350px;
+        left: 100%!important;
+    }
 }
 
 @media (max-width: 845px) {
@@ -625,6 +651,10 @@ footer {
     }
     .card-project-navigation-manual label {
         bottom: -25vh;
+    }
+    #themes label {
+        bottom: 350px;
+        left: 85%!important;
     }
 }
 
@@ -688,6 +718,10 @@ footer {
     .card-project-navigation-manual label {
         bottom: -25vh;
     }
+    #themes label {
+        bottom: 350px;
+        left: 85%!important;
+    }
 }
 @media (max-width: 650px) {
     .card-profile-left-img {
@@ -728,6 +762,10 @@ footer {
     .card-project-field-slides,
     .card-project-slide img {
         width: 75vw;
+    }
+    #themes label {
+        bottom: 350px;
+        left: 85%!important;
     }
 }
 @media (max-width: 565px) {
@@ -816,10 +854,13 @@ footer {
     .card-project-field-slides {
         width: 75vw;
     }
-    .card-project-field-slides img {
-    }
+    
     .card-project-navigation-manual label {
         bottom: -25vh;
+    }
+    #themes label {
+        bottom: 350px;
+        left: 85%!important;
     }
 }
 @media (max-width: 380px) {
@@ -845,7 +886,7 @@ footer {
         height: 150px;
     }
     .card-project-navigation-manual label {
-        bottom: -25vh;
+        bottom: -14vh;
     }
 }
 
@@ -894,6 +935,7 @@ footer {
     color: #ddd;
     font-weight: bold;
 }
+
 .overlay:hover {
     opacity: 1;
     transition: 1s;
@@ -903,3 +945,248 @@ footer {
     color: #fff;
     border: solid 2px #000;
 }
+
+/*THEMES*/
+.checkbox {
+    opacity: 0;
+    position: absolute;
+} 
+#themes label {
+    position: relative;
+    display: flex;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    width: 55px;
+    height: 26px;
+    padding: 5px;
+    border: solid 1px #000;
+    left: 95%;
+    box-sizing: border-box;
+    background-color: #000;
+    margin: 5px;
+}
+
+.label .btn-ball {
+    position: absolute;
+    background-color: #fff;
+    width: 23px;
+    height: 22px;
+    border-radius: 100%;
+    left: 2px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+.checkbox:checked + .label .btn-ball {
+    transform: translateX(25px);
+}
+.fa-moon {
+    color: #f1c40f;
+}
+.fa-sun {
+    color: #f39c12;
+}
+#themes {
+    width: 90vw!important;
+}
+.card-profile-text.dark {
+    color: #fff;
+    background-color: #141414;
+    box-shadow: 1px 1px 1px #555;
+}
+.card-profile-text p.dark {
+    color: #fff;
+}
+
+#model-card.dark {
+    background-color: #141414;
+}
+.card-education-02-left.dark {
+    background-color: #141414!important;
+}
+.card-education-01-right.dark {
+    background-color: #141414!important;
+}
+.card-experience-01-left.dark {
+    background-color: #141414!important;
+}
+.card-experience-01-right.dark {
+    background-color: #141414!important;
+}
+.card-education-line.dark{
+    border: 3px solid #1f5694;
+    background-color: #1f5694;
+}
+.card-education-point-01-right.dark {
+    background-color: #1f5694;
+}
+
+.card-education-point-01-left.dark {
+    background-color: #1f5694;
+}
+
+
+.card-mode-dark.dark {
+    color: #1f5694;
+}
+.card-point-mode-dark.dark {
+    background-color: #1f5694;
+}  
+#card-profile.dark {
+    background-color: #1f5694;
+}
+.card-skills.dark {
+    background-color: #1f5694;
+}
+
+.card-education-name-couse.dark {
+    color: #fff;
+}
+.card-education-name-couse-02.dark {
+    color: #fff;
+}
+.card-education-name-couse-03.dark {
+    color: #fff;
+}
+
+.card-education-name-university.dark {
+    color: #fff;
+}
+.card-education-name-university-02.dark {
+    color: #fff;
+}
+.card-education-name-university-03.dark {
+    color: #fff;
+}
+
+.card-education-date.dark {
+    color: #fff;
+}
+.card-education-date-02.dark {
+    color: #fff;
+}
+.card-education-date-03.dark {
+    color: #fff;
+}
+
+.card-education-date.dark {
+    color: #fff;
+}
+.card-education-date-02.dark {
+    color: #fff;
+}
+.card-education-date-03.dark {
+    color: #fff;
+}
+
+.card-education-text-p.dark {
+    color: #fff;
+}
+.card-education-text-p-02.dark {
+    color: #fff;
+}
+.card-education-text-p-03.dark {
+    color: #fff;
+}
+
+.card-experience-name-job-title.dark {
+    color: #fff;
+}
+.card-experience-name-job-title-02.dark {
+    color: #fff;
+}
+
+.card-experience-name-company.dark {
+    color: #fff;
+}
+.card-experience-name-company-02.dark {
+    color: #fff;
+}
+
+.card-experience-date.dark {
+    color: #fff;
+}
+.card-experience-date-02.dark {
+    color: #fff;
+}
+
+.card-experience-text-p.dark {
+    color: #fff;
+}
+.card-experience-text-p-02.dark {
+    color: #fff;
+}
+
+.overlay p.dark{
+    background-color: rgba(31, 86, 148, 0.9);
+}
+.overlay-02 p.dark{
+    background-color: rgba(31, 86, 148, 0.9);
+}
+.overlay-03 p.dark{
+    background-color: rgba(31, 86, 148, 0.9);
+}
+.overlay-03 p.dark{
+    background-color: rgba(31, 86, 148, 0.9);
+}
+.overlay-04 p.dark{
+    background-color: rgba(31, 86, 148, 0.9);
+}
+
+#card-project-btn-radio-01:checked ~ .card-project-navigation-manual .btn-01.dark{
+    background-color: #1f5694;
+}  
+#card-project-btn-radio-02:checked ~ .card-project-navigation-manual .btn-02.dark{
+    background-color: #1f5694;
+} 
+#card-project-btn-radio-03:checked ~ .card-project-navigation-manual .btn-03.dark{
+    background-color: #1f5694;
+} 
+#card-project-btn-radio-04:checked ~ .card-project-navigation-manual .btn-04.dark{
+    background-color: #1f5694;
+} 
+#card-project-btn-radio-05:checked ~ .card-project-navigation-manual .btn-05.dark{
+    background-color: #1f5694;
+} 
+
+footer.dark {
+    background-color: #1f5694;
+}
+.line-01.dark {
+    color: #1f5694;
+}
+.line-02.dark {
+    color: #1f5694;
+}
+.line-03.dark {
+    color: #1f5694;
+}
+.line-04.dark {
+    color: #1f5694;
+}
+.line-05.dark {
+    color: #1f5694;
+}
+
+.card-education-point-line-02-left.dark {
+    color: #1f5694;
+}
+
+.card-experience-line.dark {
+    border: 3px solid #1f5694;
+    background-color: #1f5694;
+}
+
+.card-experience-point-line-01-left.dark {
+    color: #1f5694;
+}
+.card-experience-point-01-left.dark {
+    background-color: #1f5694;
+}
+.card-experience-point-01-right.dark {
+    background-color: #1f5694;
+}
+#themes label.dark {
+    background-color: #1f5694;
+    border: solid 1px #555;}
