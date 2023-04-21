@@ -993,7 +993,7 @@ html footer {
 .card-profile-text.dark {
     color: #fff;
     background-color: #141414;
-    box-shadow: 1px 1px 1px #555;
+    box-shadow: 1px 1px 10px #444;
 }
 .card-profile-text p.dark {
     color: #fff;
@@ -1001,6 +1001,7 @@ html footer {
 
 #model-card.dark {
     background-color: #141414;
+    box-shadow: 1px 1px 10px #444;
 }
 .card-education-02-left.dark {
     background-color: #141414!important;
@@ -1035,9 +1036,12 @@ html footer {
 }  
 #card-profile.dark {
     background-color: #1f5694;
+    box-shadow: 1px 1px 10px #444;
 }
 .card-skills.dark {
     background-color: #1f5694;
+    box-shadow: 1px 1px 10px #444;
+
 }
 
 .card-education-name-couse.dark {
@@ -1189,4 +1193,9 @@ footer.dark {
 }
 #themes label.dark {
     background-color: #1f5694;
-    border: solid 1px #555;}
+    border: solid 1px #555;
+}
+
+.card-project-field-slides.dark {
+    box-shadow: 1px 1px 10px #444;
+}

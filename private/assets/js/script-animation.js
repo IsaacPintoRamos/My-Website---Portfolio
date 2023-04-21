@@ -93,4 +93,6 @@ chk.addEventListener('change', () => {
     document.querySelector('.card-experience-point-01-left').classList.toggle('dark');
     document.querySelector('.card-experience-point-01-right').classList.toggle('dark');
     document.querySelector('#themes label').classList.toggle('dark');
+
+    document.querySelector('.card-project-field-slides').classList.toggle('dark');
 });
