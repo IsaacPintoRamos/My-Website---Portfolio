@@ -56,11 +56,11 @@ a {
 /*MODEL CARD*/
 #model-card {
     box-sizing: border-box;
-    width: 80%;
+    max-width: 500px;
     height: 260px;
     border-left: solid #1f5694 5px;
     padding: 20px 15px;
-    margin: auto;
+    margin: 0 60px;
     background-color: #fff;
     box-shadow: 1px 1px 10px #000;
 
@@ -549,6 +549,17 @@ html footer {
     }
     .card-project-navigation-manual label {
         bottom: -32vh;
+    }
+    #model-card {
+        box-sizing: border-box;
+        max-width: 60vw;
+        height: 260px;
+        border-left: solid #1f5694 5px;
+        padding: 20px 15px;
+        margin: auto;
+        background-color: #fff;
+        box-shadow: 1px 1px 10px #000;
+    
     }
 }
 
